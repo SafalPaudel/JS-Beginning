@@ -37,3 +37,30 @@ console.log(id == anotherId)
     console.log(typeof myFunction)
     console.log(typeof heroes )
     console.log(typeof anotherId )
+
+//***************************************************************
+
+//  Stack  (Primitive) , Heap (Non-Primitive)
+
+let myYoutubename = "SafalPaudel.com"
+
+let anotherName = myYoutubename
+anotherName = "MrBeast"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let user1 = {
+    email : "user@gmail.com",
+    esewa : "user@esewa"
+}
+
+let user2 = user1
+
+user2.email = "safal@google.com"
+console.log(user1.email);
+console.log(user2.email);
+
+
+// In Stack we get copy
+// In Heap we ret references
